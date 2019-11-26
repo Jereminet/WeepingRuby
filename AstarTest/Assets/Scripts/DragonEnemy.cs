@@ -14,7 +14,7 @@ public class DragonEnemy : MonoBehaviour
 
     void Start()
     {
-        heroPos = GameObject.Find("RubyHitdown").transform;
+        heroPos = GameObject.FindGameObjectWithTag("Player").transform;
         //myPos = transform.position;
     }
 
